@@ -1,6 +1,8 @@
 # 2008pedia
 2008 Wikipedia Archive
 
+https://2008pedia.xyz
+
 # Setup Instructions
 ## Install MediaWiki
 https://www.linode.com/docs/guides/how-to-install-mediawiki-ubuntu-2004/
@@ -55,8 +57,14 @@ rmdir mediawiki-1.38.0
 
 ```
 
-## Install MediaWiki
+#### Configure MediaWiki
 Go to your domain name or IP address and use the MediaWiki installer.
+
+
+Use InstantCommons to pull images from Wikipedia Commons
+```
+$wgUseInstantCommons = true;
+```
 
 
 ## Download 2008 Wikipedia archive
