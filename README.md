@@ -55,13 +55,20 @@ rmdir mediawiki-1.38.0
 
 ```
 
-# Install MediaWiki
+## Install MediaWiki
 Go to your domain name or IP address and use the MediaWiki installer.
 
 
-#### Download 2008 Wikipedia archive
+## Download 2008 Wikipedia archive
 [Torrent](enwiki-20080103_archive.torrent)
+```
+cd
+sudo apt-get install -y transmission
+wget https://github.com/argosopentech/2008pedia/raw/main/enwiki-20080103_archive.torrent
+transmission-cli enwiki-20080103_archive.torrent
 
-#### Import xml into MediaWiki
+```
+
+## Import xml into MediaWiki
 https://www.mediawiki.org/wiki/Manual:Importing_XML_dumps
 
