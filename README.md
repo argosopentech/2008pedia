@@ -3,6 +3,8 @@
 
 https://2008pedia.xyz
 
+![2008pedia logo](2008pedia.png)
+
 # Setup Instructions
 ## Install MediaWiki
 https://www.linode.com/docs/guides/how-to-install-mediawiki-ubuntu-2004/
