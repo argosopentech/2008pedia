@@ -60,10 +60,10 @@ rmdir mediawiki-1.38.0
 ```
 
 #### Configure MediaWiki
-Go to your domain name or IP address and use the MediaWiki installer.
+Go to your domain name or IP address and use the MediaWiki installer. The installer will create a LocalSettings.php file that you should put in /var/www/html.
 
 
-Use InstantCommons to pull images from Wikipedia Commons
+Use InstantCommons setting in LocalSettings.php to pull images from Wikipedia Commons
 ```
 $wgUseInstantCommons = true;
 ```
@@ -80,5 +80,10 @@ transmission-cli enwiki-20080103_archive.torrent
 ```
 
 ## Import xml into MediaWiki
-https://www.mediawiki.org/wiki/Manual:Importing_XML_dumps
 
+```
+cd ~/Downloads
+bzip2 -d enwiki-20080103/enwiki-20080103-pages-articles.xml.bz2
+php /var/www/html/maintenance/importDump.php ~/Downloads/enwiki-20080103/enwiki-20080103-pages-articles.xml
+
+```
