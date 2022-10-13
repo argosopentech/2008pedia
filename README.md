@@ -3,6 +3,8 @@
 
 https://2008pedia.xyz
 
+[Random page](https://2008pedia.xyz/index.php/Special:Random)
+
 ![2008pedia logo](2008pedia.png)
 
 # Setup Instructions
