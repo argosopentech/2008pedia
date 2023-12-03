@@ -1,7 +1,7 @@
 # 2008pedia
 2008 Wikipedia Archive
 
-![2008pedia logo](2008pedia.png)\
+![2008pedia logo](2008pedia.png)
 
 ### [Download Torrent](https://github.com/argosopentech/2008pedia/raw/main/enwiki-20080103_archive.torrent)
 
